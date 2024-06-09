@@ -1,0 +1,28 @@
+alavra;
+
+function setup() {
+  createCanvas(400, 400);
+
+  palavra = palavraAleatoria();
+}
+
+
+function palavraAleatoria() {
+  let palavras = ["Caminhar", "Caminhante", "Caminhando"];
+  return  random(palavras);
+  }
+
+function inicializarCores() {
+  background("white");
+  fill("black");
+  textSize(64);
+  textAlign(CENTER,CENTER);
+}
+
+  function draw() {
+inicializarCores()
+
+ let maximo = width;
+  let minimo = 0;
+
+
